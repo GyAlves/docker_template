@@ -1,0 +1,15 @@
+### Docker
+-  docker ps -> List all of the container that are up
+-  docker ps - a -> List all of the containers
+-  docker rm idDoContainer ou nome -> Remove o container (deve estar pausado)
+-  docker start nomeContainer -> Starts the container
+-  docker stop -> Stops the container
+-  docker-compose up -d -> Up the container on background
+-  docker-compose stop -> Stops the services
+-  docker-compose down -> removes the containers
+-  docker-compose start -> starts the services
+-  docker exec -it containerName /bin/bash -> Access the container
+    - ctrl + d  -> leaves the container
+- docker logs nomeDoContainer -f -> The logs will appear on the console
+    - ctrl + c -> leaves the logs
+- docker exec nomeContainer cat /etc/hosts -> Retorna os IPS do container
